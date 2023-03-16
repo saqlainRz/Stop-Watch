@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH START</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="main">
+            <span class="s">S</span>
+            <span class="a">A</span>
+            <span class="s">Q</span>
+            <span class="o">L</span>
+            <span class="a">A</span>
+            <span class="s">I</span>
+            <span class="o">N</span>
+        </h2>
+
+        <h1 class="title">
+            <span class="c">S</span>
+            <span class="l">T</span>
+            <span class="o">O</span>
+            <span class="c">P</span>
+            <span class="o">W</span>
+            <span class="c">A</span>
+            <span class="l">T</span>
+            <span class="w">C</span>
+            <span class="c">H</span>
+        </h1>
+
+        <div class="clock">
+            <span class="digit" id="hr">00</span>
+            <span class="text">Hr</span>
+
+            <span class="digit" id="min">00</span>
+            <span class="text">Min</span>
+
+            <span class="digit" id="sec">00</span>
+            <span class="text">Se</span>
+            
+            <span class="digit" id="count">00</span>
+            <span class="text"></span>
+        </div>
+
+        <div id="bttn">
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <button class="btn" id="stop" onclick="stop()">Stop</button>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="style.js"></script>
+</body>
+
+</html>
